@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>nerdfonts</id>
+    <version>2.2.2</version>
+    <title>NerdFonts (Install)</title>
+    <authors>ryanoasis</authors>
+    <projectUrl>https://www.nerdfonts.com</projectUrl>
+    <iconUrl>https://www.nerdfonts.com/assets/img/apple-touch-icon.png</iconUrl>
+    <projectSourceUrl>https://github.com/ryanoasis/nerd-fonts</projectSourceUrl>
+    <tags>nerdfonts</tags>
+    <summary>Installs any and all of the nerd fonts</summary>
+    <description>Downloads and installs the nerd fonts</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
