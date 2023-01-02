@@ -1,5 +1,5 @@
 ﻿param(
-    [string[]]$Name = @(if ($NameParameter = (Get-PackageParameters)["Name"] -split "[, ]") { $NameParameter } else { ".*" })
+    [string[]]$Name = @(if ($NameParameter = (Get-PackageParameters)["Name"] -split "[, ]") { $NameParameter } else { "CascadiaCode" })
 )
 
 $packageName = "NerdFonts"
