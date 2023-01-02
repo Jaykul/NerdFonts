@@ -4,7 +4,7 @@
 
 $packageName = "NerdFonts"
 $Version = "v" + $Env:ChocolateyPackageVersion
-$Fonts = Get-Content $Version | ConvertFrom-StringData
+$Fonts = Get-Content (Join-Path $PSScriptRoot $Version) | ConvertFrom-StringData
 
 # If they install them all, do it in alphabetical order
 $FontNames = $Name.ForEach{ $Fonts.Keys -match $_ } | Sort-Object
@@ -21,5 +21,5 @@ foreach ($Font in $FontNames) {
 }
 
 # Only install the "Windows Compatible" fonts, because otherwise we'll have double fonts
-$CompatibleFonts = Get-ChildItem $PSScriptRoot -File -Recurse -Filter "*Windows Compatible*.otf"
+$CompatibleFonts = Get-ChildItem $PSScriptRoot -File -Recurse -Filter "*Windows Compatible*"
 Install-ChocolateyFont $CompatibleFonts.FullName -Multiple -ErrorAction Stop
