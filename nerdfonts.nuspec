@@ -4,13 +4,16 @@
     <id>nerdfonts</id>
     <version>2.2.2</version>
     <title>NerdFonts (Install)</title>
-    <authors>Joel "Jaykul" Bennett</authors>
+    <!-- The package maintainer -->
+    <owners>Joel Bennett (jaykul)</owners>
+    <!-- The software maintainer -->
+    <authors>Ryan L McIntyre (ryanoasis)</authors>
     <projectUrl>https://www.nerdfonts.com</projectUrl>
     <licenseUrl>https://github.com/ryanoasis/nerd-fonts/blob/master/license-audit.md</licenseUrl>
     <iconUrl>https://www.nerdfonts.com/assets/img/nerd-fonts-logo.svg</iconUrl>
     <projectSourceUrl>https://github.com/ryanoasis/nerd-fonts</projectSourceUrl>
     <packageSourceUrl>https://github.com/jaykul/nerdfonts</packageSourceUrl>
-    <tags>nerdfonts</tags>
+    <tags>Font Fonts NerdFonts Agave AnonymousPro Arimo AurulentSansMono BigBlueTerminal BitstreamVeraSansMono CascadiaCode CodeNewRoman Cousine DaddyTimeMono DejaVuSansMono DroidSansMono FantasqueSansMono FiraCode FiraMono Go-Mono Gohu Hack Hasklig HeavyData Hermit iA-Writer IBMPlexMono Inconsolata InconsolataGo InconsolataLGC Iosevka JetBrainsMono Lekton LiberationMono Lilex Meslo Monofur Monoid Mononoki MPlus Noto OpenDyslexic Overpass ProFont ProggyClean RobotoMono ShareTechMono SourceCodePro SpaceMono Terminus Tinos Ubuntu UbuntuMono VictorMono</tags>
     <summary>Installs any and all of the nerd fonts</summary>
     <description><![CDATA[# Downloads and installs [NerdFonts](https://www.nerdfonts.com).
 
