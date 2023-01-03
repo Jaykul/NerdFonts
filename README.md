@@ -1,6 +1,8 @@
 # Downloads and installs [NerdFonts](https://www.nerdfonts.com).
 
-By default, installs only the fonts "Caskaydia Cove NF" (and "Caskaydia Cove NF Mono"), but supports installing any and all NerdFonts from the release. Note that this specifically uses the "Windows Compatible" font files (which have shortened font names), and the name has to match the zip file. Some of the current zip files are named with the _reserved_ font names, rather than the actual name that will show up on the font once it's installed, so there's a bit of a weird mix.
+Nerd Fonts is a project that patches developer targeted fonts with a high number of glyphs (icons). Specifically to add a high number of extra glyphs from popular 'iconic fonts' such as Font Awesome, Devicons, Octicons, and others.
+
+This package, by default, installs only "Caskaydia Cove NF" (and "Caskaydia Cove NF Mono"), but supports installing any and all NerdFonts from the release. Note that we specifically use the "Windows Compatible" font files (which have shortened font names), and the name parameter has to match the zip file. Some of the current zip files are named with the _reserved_ font names, rather than the actual name that will show up on the font once it's installed, so there's a bit of a weird mix.
 
 ## Package parameters
 
